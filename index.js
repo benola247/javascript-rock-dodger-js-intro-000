@@ -68,10 +68,10 @@ function endGame() {
 
   document.removeEventListener('keydown', moveDodger)
 
-  START.innerHTML = 'Korede Play again?'
+  START.innerHTML = 'Play again?'
   START.style.display = 'inline'
 
-  return alert('PEARL YOU LOSE!')
+  return alert('YOU LOSE!')
 }
 
 function moveDodger(e) {
